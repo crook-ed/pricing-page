@@ -1,11 +1,10 @@
 import React from 'react';
 
-import './App.css';
 import 'antd/dist/antd.css';
 import Header from './components/common/header';
 import Content from './components/common/content';
 import Pricingpage from './components/common/pricingpage';
-
+import Pricingpage1 from './components/common/pricingpage1';
 
 function App() {
   return (
@@ -17,6 +16,9 @@ function App() {
         </div>
         <div style={{marginTop: '50px'}}>
           <Pricingpage />
+        </div>
+        <div style={{marginTop: '50px'}}>
+          <Pricingpage1 />
         </div>
         
       </>

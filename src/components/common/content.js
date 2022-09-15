@@ -4,7 +4,6 @@ import { Image, Button } from "antd";
 import Vector from '../images/Vector.svg';
 import console from '../images/console.svg';
 import bolt from '../images/bolt.svg';
-import "./content.css";
 
 
 const content = () => {
@@ -133,7 +132,7 @@ const content = () => {
                 
 
                 <div style= {{ marginTop: '15px' , textAlign:'center'}}> 
-                <Image src={console} preview={false}  />
+                <Image src={console} preview={false} style={{width:'842px' , height: '441px'}} />
                 </div>
                 
 
