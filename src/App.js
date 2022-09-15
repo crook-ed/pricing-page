@@ -14,12 +14,11 @@ function App() {
         <div style={{marginTop: '50px'}}>
         <Content/>
         </div>
-        <div style={{marginTop: '50px'}}>
+        
           <Pricingpage />
-        </div>
-        <div style={{marginTop: '50px'}}>
+        
           <Pricingpage1 />
-        </div>
+        
         
       </>
     

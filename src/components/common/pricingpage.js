@@ -1,5 +1,4 @@
-import { Divider } from "antd";
-import React, { useState } from "react";
+
 import { Image, Button, Card, Col, Row } from "antd";
 
 import Vector from '../images/Vector.svg';

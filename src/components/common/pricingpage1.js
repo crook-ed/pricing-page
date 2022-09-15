@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+
 import { Image, Button, Card, Col, Row } from "antd";
 
 import green from '../images/green.svg';
@@ -14,7 +14,7 @@ const content = () => {
                     <h1 style={{margin: 'auto'}}>Utterly <span style={{color: 'blue'}}>transparent pricing,</span> for businesses of all sizes.</h1>
                     <p style= {{fontWeight: '400', fontSize: '24px', color:'#706F6F'}}>Usage-based pricing with monthly payments</p>
                 </div>
-
+            {/* Cards  */}
                 <div style={{width: '60%', margin: 'auto'}}>
                     <Row >
                         <Col span={8} style={{paddingTop: '20px'}} >
@@ -48,7 +48,7 @@ const content = () => {
                     </Row>
                 </div>
 
-                
+               {/* Key points of flagright api  */}
                 <div>
                     <div style={{maxWidth: '860px', margin: 'auto', marginTop: '50px'}}>
                         <Row >
@@ -121,18 +121,11 @@ const content = () => {
                                 
                             </Col>
                         </Row>
-                        
-                        
-
-                        
-                        
+                           
                     </div>
                 </div>
 
-                
-
-                
-                
+                {/* Footer */}
 
                 <div style= {{ marginTop: '60px' , textAlign:'center' , background: '#0D254B', padding:'50px'}}>
                 <Image src={bolt} preview={false} style={{marginTop:'20px' ,}} />
