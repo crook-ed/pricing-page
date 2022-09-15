@@ -10,6 +10,7 @@ import check from '../images/check.svg';
 const content = () => {
     return(
         <>
+        {/* Heading line */}
             <div >
                 <div style={{textAlign: 'center', paddingTop: '60px'}} >
                     <h1 style={{margin: 'auto'}}>Utterly <span style={{color: 'blue'}}>transparent pricing,</span> for businesses of all sizes.</h1>
@@ -18,6 +19,7 @@ const content = () => {
 
                 <div style={{width: '60%', margin: 'auto'}}>
                     <Row >
+                        {/* Card 1 */}
                         <Col span={8}  style={{padding:'20px'}} >
                             <Card style= {{height:'190px', boxShadow: '0px 4px 24px rgba(0, 0, 0, 0.1)',borderTopColor:'#C7528A', borderTopWidth:'7px', borderRadius:'4px'}} >
                             <h1 >Beacon</h1>
@@ -45,6 +47,9 @@ const content = () => {
                                 </Row>
                             </Card>
                         </Col>
+
+                        {/* Card 2 */}
+
                         <Col span={8} style={{padding:'20px'}}>
                             <Card style= {{height:'190px', boxShadow: '0px 4px 24px rgba(0, 0, 0, 0.1)',borderTopColor:'#E8BA19', borderTopWidth:'7px', borderRadius:'4px'}}  >
                             <h1 >Pulse</h1>
@@ -72,6 +77,9 @@ const content = () => {
                                 </Row>
                             </Card>
                         </Col>
+
+                        {/* Card 3 */}
+
                         <Col span={8} style={{padding:'20px'}}>
                             <Card style= {{height:'190px', boxShadow: '0px 4px 24px rgba(0, 0, 0, 0.1)',borderTopColor:'#3EC089', borderTopWidth:'7px', borderRadius:'4px'}}>
                             <h1 >Sanctions</h1>
@@ -102,11 +110,12 @@ const content = () => {
                     </Row>
                 </div>
 
-                
+                {/* Key points of flagright api  */}
                 <div>
                     <div style={{maxWidth: '860px', margin: 'auto', marginTop: '50px'}}>
                         <Row >
                             <Col span={13} style={{paddingLeft: '50px'}}>
+                                {/* Row 1 */}
                                  <Row>
                                     <Col span={2} style={{float: 'right'}}>
                                         <Image src={Vector} preview={false} height={20}/>
@@ -117,6 +126,7 @@ const content = () => {
                                     </Col>
                                     
                                 </Row>
+                                {/* Row 2 */}
                                 <Row>
                                     <Col span={2} style={{float: 'right'}}>
                                         <Image src={Vector} preview={false} height={20}/>
@@ -127,7 +137,7 @@ const content = () => {
                                     </Col>
                                     
                                 </Row>
-
+                                {/* Row 3 */}
                                 <Row>
                                     <Col span={2} style={{float: 'right'}}>
                                         <Image src={Vector} preview={false} height={20}/>
@@ -138,7 +148,7 @@ const content = () => {
                                     </Col>
                                     
                                 </Row>
-
+                                {/* Row 4 */}
                                 <Row>
                                     <Col span={2} style={{float: 'right'}}>
                                         <Image src={Vector} preview={false} height={20}/>
@@ -148,8 +158,8 @@ const content = () => {
                                         <span style= {{fontWeight: '400' , fontSize: '14px' }}>No setup, integration, or implementation fees.<br></br> All training, support, and services are included in the<br></br> price you see.</span> </div>
                                     </Col>
                                     </Row>
-
-                                    <Row>
+                                {/* Row 5 */}
+                                <Row>
                                     <Col span={2} style={{float: 'right'}}>
                                         <Image src={Vector} preview={false} height={20}/>
                                     </Col>
@@ -159,7 +169,7 @@ const content = () => {
                                     </Col>
                                     
                                 </Row>
-
+                                {/* Row 6 */}
                                 <Row>
                                     <Col span={2} style={{float: 'right'}}>
                                         <Image src={Vector} preview={false} height={20}/>
@@ -185,7 +195,7 @@ const content = () => {
 
                 
 
-                
+                {/* Footer */}
                 
 
                 <div style= {{ marginTop: '60px' , textAlign:'center' , background: '#0D254B', padding:'50px'}}>

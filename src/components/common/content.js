@@ -13,9 +13,12 @@ const content = () => {
                     <h1 style={{margin: 'auto'}}>Utterly <span style={{color: 'blue'}}>transparent pricing,</span> for businesses of all sizes.</h1>
                     <p style= {{fontWeight: '400', fontSize: '24px', color:'#706F6F'}}>Usage-based pricing with monthly payments</p>
                 </div>
+
+                {/* Cards */}
                 <div>
                     <div style={{maxWidth: '1072px', margin: 'auto', background: '#EDF3FF', marginTop: '50px', borderRadius: '8px'}}>
                         <Row style={{padding: '50px'}}>
+                            {/* card 1 */}
                             <Col span={8}>
                                 <div style={{textAlign: 'center', paddingTop: '20px'}}>
                                     <div ><span style= {{fontWeight: '500' , fontSize: '22px' }}>Free Tier</span></div>
@@ -23,6 +26,7 @@ const content = () => {
                                 </div>
                             </Col>
                             <Divider type="vertical" style={{height: '100px'}}/>
+                            {/* card 2 */}
                             <Col span={7}>
                             <div style={{textAlign: 'center', paddingTop: '20px'}}>
                                     <div ><span style= {{fontWeight: '500' , fontSize: '22px' }}>Fixed price per month</span></div>
@@ -30,6 +34,7 @@ const content = () => {
                                 </div>
                             </Col>
                             <Divider type="vertical" style={{height: '100px'}}/>
+                            {/* card 3 */}
                             <Col span={8}>
                             <div style={{textAlign: 'center', paddingTop: '20px'}}>
                                     <div ><span style= {{fontWeight: '500' , fontSize: '22px' }}>Annual payment with 25% off</span></div>
@@ -40,9 +45,14 @@ const content = () => {
                         </Row>
                     </div>
                 </div>
+
+                {/* Key points of flagright api  */}
+
                 <div>
                     <div style={{maxWidth: '860px', margin: 'auto', marginTop: '50px'}}>
+                        {/* row 1 */}
                         <Row style={{padding: '1px'}}>
+                            {/* col 1 */}
                             <Col span={13} style={{paddingLeft: '50px'}}>
                                  <Row>
                                     <Col span={2} style={{float: 'right'}}>
@@ -55,6 +65,7 @@ const content = () => {
                                     
                                 </Row>
                             </Col>
+                            {/* col 2 */}
                             <Col span={10}>
                                 <Row>
                                     <Col span={2} style={{float: 'right'}}>
@@ -69,7 +80,9 @@ const content = () => {
                                 
                             </Col>
                         </Row>
+                        {/* row 2 */}
                         <Row style={{marginTop: '25px'}} >
+                            {/* col 1 */}
                              <Col span={13} style={{paddingLeft: '50px'}}>
                                  <Row>
                                     <Col span={2} style={{float: 'right'}}>
@@ -82,7 +95,7 @@ const content = () => {
                                     
                                 </Row>
                             </Col>
-                            
+                            {/* col 2 */}
                             <Col span={10}>
                                 <Row>
                                     <Col span={2} style={{float: 'right'}}>
@@ -97,8 +110,9 @@ const content = () => {
                         </Col>
                         </Row>
                         
-
+                        {/* row 3 */}
                         <Row style={{marginTop: '25px'}} >
+                            {/* col 1 */}
                              <Col span={13} style={{paddingLeft: '50px'}}>
                                  <Row>
                                     <Col span={2} style={{float: 'right'}}>
@@ -111,7 +125,7 @@ const content = () => {
                                     
                                 </Row>
                             </Col>
-                            
+                            {/* col 2 */}
                             <Col span={10}>
                                 <Row>
                                     <Col span={2} style={{float: 'right'}}>
@@ -129,11 +143,12 @@ const content = () => {
                 </div>
 
                 
-
+                
                 <div style= {{ marginTop: '15px' , textAlign:'center'}}> 
                 <Image src={console} preview={false} style={{width:'842px' , height: '441px'}} />
                 </div>
                 
+                {/* footer */}
 
                 <div style= {{ marginTop: '15px' , textAlign:'center' , background: '#0D254B', padding:'50px'}}>
                 <Image src={bolt} preview={false} style={{marginTop:'20px' ,}} />
